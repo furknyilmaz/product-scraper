@@ -1,0 +1,3 @@
+BASE_URL = "https://www.markastok.com"
+GOOGLE_SHEET_ID = "1gRUx5WAtTZaA9MWU3J4PRUKBmEAYt9ZbOgv1SJNc2Io"
+GOOGLE_SHEET_NAME = "Sayfa1"
