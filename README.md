@@ -21,12 +21,22 @@ source venv/bin/activate
 
 Sanal ortamı kurduktan sonra gerekli bağımlılıkları indirmek için aşağıda belirtilen komutu çalıştırın.
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Aynı dizin içerisinde aşağıdaki kodu çalıştırarak programı çalıştırabilirsiniz.
 ```
 py main.py
+```
+
+Sanal ortamı inaktif etmek için aşağıdaki belirtilen kodu çalıştırın.
+Windows kullanıcısı iseniz:
+```
+venv/Scripts/deactivate
+```
+Ubuntu/Mac kullanıcısı iseniz:
+```
+source venv/bin/deactivate
 ```
 
 ## Gereksinimler
