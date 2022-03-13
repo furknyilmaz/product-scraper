@@ -3,10 +3,27 @@
 ## Proje Kurulumu
 Projeyi bilgisayarınıza klonladıktan sonra komut istemcisinde, projenin olduğu dizine gidin.
 
-Proje dizinine gittikten sonra gerekli bağımlılıkları indirmek için aşağıda belirtilen komutu çalıştırın.
+Proje içerisinde kullanılan kütüphaneleri sanal ortamda yüklemek için python'ın virtualenv kütüphanesini kullanarak sanal ortam oluşturun.
+(Eğer virtualenv kütüphanesi yok ise "pip install virtualenv" komutunu, komut istemcisinde çalıştırınız.)
+```
+virtualenv venv
+```
+
+Sanal ortamı oluşturduktan sonra, sanal ortamı aktifleştirmek için aşağıdaki belirtilen kodu çalıştırın.
+Windows kullanıcısı iseniz:
+```
+venv/Scripts/activate
+```
+Ubuntu/Mac kullanıcısı iseniz:
+```
+source venv/bin/activate
+```
+
+Sanal ortamı kurduktan sonra gerekli bağımlılıkları indirmek için aşağıda belirtilen komutu çalıştırın.
 ```
 pip install requirements.txt
 ```
+
 Aynı dizin içerisinde aşağıdaki kodu çalıştırarak programı çalıştırabilirsiniz.
 ```
 py main.py
